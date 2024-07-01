@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.custom-connect-wallet-btn {
+  background-color: #FFD400 !important;
+  padding: 10px 2px !important;
+  border-radius: 10px !important;
+  border: none;
+  font-weight: 700 !important;
+  align-items: center !important;
+  color: black !important;
+}
+
+.custom-connect-wallet-btn *{
+  color: black !important;
+}
+
+.custom-connect-wallet-btn:hover {
+  background-color: #EADEDA !important; /* Cambia esto al color que desees para el hover */
+}
+

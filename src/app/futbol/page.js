@@ -1,6 +1,6 @@
 "use client";
 import Head from 'next/head';
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout';
 import Banner from '@/components/Banner';
 import { News } from '@/components/News';
 import { Features } from '@/components/Features';
