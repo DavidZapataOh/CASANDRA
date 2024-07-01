@@ -2,9 +2,9 @@ import React from 'react'
 
 export const HowWorks = () => {
   return (
-    <section className="text-left md:px-20 px-60 py-20 bg-primary">
+    <section className="text-left md:px-20 px-60 py-20 sm:px-10 bg-primary">
         <h2 className="text-3xl font-bold text-center mb-8 text-dark">Cómo funciona</h2>
-        <div className="grid grid-cols-4 grid-rows-3 gap-4 w-full h-full">
+        <div className="grid grid-cols-4 grid-rows-3 gap-4 w-full h-full sm:grid-cols-1 sm:grid-rows-1">
             <div className="col-span-2 row-span-1 bg-dark p-8 rounded-xl">
                 <div className='flex items-center'>
                     <div className='bg-primary p-2 rounded-full w-14 h-14 flex  text-center items-center justify-center'>

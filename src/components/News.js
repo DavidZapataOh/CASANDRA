@@ -37,7 +37,7 @@ const NewsCard = ({ imageUrl, linkUrl }) => {
     };
   
     return (
-    <section className="text-left md:px-20 px-60 py-20 bg-dark">
+    <section className="text-left md:px-20 px-60 py-20 sm:p-5 bg-dark">
         <div className="container mx-auto">
         <Slider {...settings}>
           <NewsCard

@@ -18,7 +18,7 @@ export const Features = () => {
   return (
     <section className="text-left md:px-20 px-60 py-20 bg-dark">
         <h2 className="text-3xl font-bold text-center mb-8">Qué nos caracteriza</h2>
-        <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-3 gap-4 lg:px-4 px-0 ">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-3 gap-4 lg:px-4 px-0 sm:px-0">
             <ProcessStep icon={FaUserSecret} title="ANONIMATO" description="Interactúa de manera anónima en la plataforma sin necesidad de registro o verificación KYC." />
             <ProcessStep icon={FaMoneyBillWave} title="CASHBACK" description="Recibe bonificaciones por cada predicción acertada. Cuantas más aciertes, más obtendrás." />
             <ProcessStep icon={FaLock} title="TRANSPARENTE" description="Todas las interacciones en la plataforma son completamente transparentes." />

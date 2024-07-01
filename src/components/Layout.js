@@ -7,7 +7,7 @@ import { GiBoxingGlove, GiSoccerBall  } from "react-icons/gi";
 
 const Categories = () => {
   return (
-    <div className="flex space-x-8 items-center ml-12">
+    <div className="flex space-x-8 items-center ml-12 sm:hidden">
       <a href='/futbol' className="flex items-center space-x-2 hover:bg-dark py-2 px-4 hover:rounded-2xl">
         <GiSoccerBall  className="text-primary" size={20} />
         <span>Fútbol</span>
